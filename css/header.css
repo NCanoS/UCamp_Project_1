@@ -1,5 +1,11 @@
 /* Global Styles */
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
 
 
 /* Header styles */
@@ -20,11 +26,12 @@ header .container{
 }
 
 header .container .logo{
-    width: 5rem;
+    width: 80px;
+    height: 80px;
 }
 
 header .container a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
