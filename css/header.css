@@ -1,13 +1,13 @@
 /* Global Styles */
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
     font-family: 'Raleway', sans-serif;
 }
-
-
+.btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #f69a46;
+}
 /* Header styles */
 
 header {
@@ -16,39 +16,57 @@ header {
     color: #223026;
 }
 
-header .container{
-    max-width: 90%;
-    height: auto;
-    margin: 0 auto;
+.header-container {
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
-header .container .logo{
+.header-logo {
     width: 80px;
     height: 80px;
 }
 
-header .container a{
-    color: rgb(255, 255, 255);
+header nav a{
+    color: #223026;
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 
-header .container a:hover{
+header nav a:hover{
     color:#6aa3b4;
     text-decoration: white;
     transition: all 300ms ease;
 }
 
-header .container .menu-list li{
-    display: inline;
-    padding: 0 0.5rem;
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 2rem;
 }
 
-header .container .header-menu input, label{
-    display: none;
+.btn-login {
+    background-color: #f69a46;
+    border: none;
+    padding: 10px 10px;
+    transition: background-color 0.3s ease-out;
+    border-radius: 10px;
 }
+
+.btn-shoplist {
+    background-color: yellow;
+    border: none;
+    padding: 10px 10px;
+    transition: background-color 0.3s ease-out;
+    border-radius: 10px;
+}
+
 
 @media (min-width:240px) and (max-width:880px){
 
