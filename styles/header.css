@@ -1,15 +1,3 @@
-/* Global Styles */
-* {
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-}
-.btn:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: #f69a46;
-}
-/* Header styles */
-
 header {
     width: 100%;
     background-color: #68da3e;
