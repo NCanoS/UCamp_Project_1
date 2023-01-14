@@ -1,0 +1,23 @@
+.jumbotron {
+    height: max-content;
+    width: 0 auto;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: #223026;
+    padding-top: 5%;
+    
+}
+
+.register-section {
+    max-width: 10%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-content: space-between;
+    justify-content: center;
+    text-align: center;
+    align-items: stretch;
+    padding: 10px;
+}

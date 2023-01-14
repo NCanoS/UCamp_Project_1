@@ -1,0 +1,68 @@
+@media (min-width:240px) and (max-width:880px){
+
+    /* HEADER */
+    header .header-menu{
+        display:none;
+        top: 5rem;
+        right: 0;
+        position: absolute;
+    }
+
+    header .header-container .header-menu li  {
+        padding:2rem 0;
+    }
+    header .header-container .btn-login,.btn-login {
+        display: flex;
+        user-select: none;
+        cursor:pointer;
+        font-size: 2rem;
+    }
+
+    header #menu:checked~.menu,.bar-btn {
+        width: 50px;
+        height:50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* MAIN */
+
+    #home-page{
+        height: 95vh;
+        background-position:center;
+        background-size: cover;
+    }
+
+    /* JUMBOTRON */
+    .jumbotron{
+        height: 100%;
+        width: 100%;
+    }
+
+    /* PRODUCT CATALOG AND BLOG */
+    .product-container, .review-container{
+        grid-template-columns: 1fr;
+    }
+
+    .review-container .card-review .card-split-image-description .customer-avatar{
+        height: 100px;
+        width: 100px;
+    }
+
+    /* FOOTER */
+
+    footer .footer-sections{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 5px;
+    }
+
+    footer .footer-sections .footer-card .social-media{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        gap: 15px;
+    }
+}
