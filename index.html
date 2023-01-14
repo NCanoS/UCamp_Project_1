@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./styles/product-catalog.css">
     <link rel="stylesheet" href="./styles/jumbotron.css">
     <link rel="stylesheet" href="./styles/global-styles.css">
+    <link rel="stylesheet" href="./styles/customer-blog.css">
     
 
     <!-- Fonts -->
@@ -28,6 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <nav class="header-container">
             <a href="index.html">
@@ -47,6 +49,8 @@
                 </ul>
         </nav>
     </header>
+
+    <!-- Main -->
     <main>
         <!-- Jumbotron -->
         <div id="home-page">
@@ -56,7 +60,7 @@
             <div class="register-section">
                 <ul>
                     <li><input type="email" placeholder="Ingresa tu correo" class="text-input"></li>
-                    <li><input type="text" placeholder="Crea una contraseña" class="text-input"></li>
+                    <li><input type="password" placeholder="Crea una contraseña" class="password-input"></li>
                 </ul>
                 <a href="#" class="btn btn-register">Enviar</a>
             </div>
@@ -65,7 +69,7 @@
         </div>
         <!-- Catálogo de productos -->
         <div id="product-catalog">
-            <h3>Explora nuestros mejores productos</h3>
+            <h3 class="product-explore">Explora nuestros mejores productos</h3>
             <div class="product-container">
                 <div class="card-product">
                     <div class="card-split-image-description">
@@ -129,6 +133,46 @@
                 </div>
             </div>
         </div>
+
+        <!-- Seccion de Resenas de usuario -->
+        <div id="customer-blog">
+            <h4 class="customer-reviews">Conoce las opiniones de nuestros clientes</h4>
+            <div class="review-container">
+                <div class="card-review">
+                    <div class="card-split-image-description">
+                        <img src="./src/customer-1.jpg" class="customer-avatar">
+                            <ul>
+                                <li><p>Excelente</p></li>
+                                <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut similique illo! Quo debitis voluptatem cumque, earum quisquam repellendus cum dicta ab officia saepe obcaecati porro facere culpa tempora at?</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                <div class="card-review">
+                    <div class="card-split-image-description">
+                        <img src="./src/customer-2.jpg" class="customer-avatar">
+                        <ul>
+                            <li><p>Buena Calidad</p></li>
+                            <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis dolores fugit iure laborum voluptatem aperiam ex cupiditate fuga nostrum aliquam ea, nobis corporis? Voluptas molestiae, similique ducimus vel hic ut.</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-review">
+                    <div class="card-split-image-description">
+                        <img src="./src/customer-3.jpg" class="customer-avatar">
+                        <ul>
+                            <li><p>Buen Servicio</p></li>
+                            <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime suscipit quibusdam tempore sequi eum distinctio odit, possimus aut ipsum porro? Natus, eaque nemo sequi voluptatem beatae adipisci atque perferendis asperiores.</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul>
+                    <li><p style="color:#ffff;">¿Tienes algún comentario? Haznolo saber</p></li>
+                    <li><textarea placeholder="Escribe tus pensamientos" cols="30" rows="15" class="customer-input"></textarea></li>
+                </ul>
+                
+        </div>
     </main>
+
+    <!-- Footer -->
 </body>
 </html>

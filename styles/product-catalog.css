@@ -1,5 +1,10 @@
 #product-catalog {
     justify-content: center;
+    padding-bottom: 10%;
+}
+
+.product-explore{
+    font-size: x-large;
 }
 
 .product-container {
