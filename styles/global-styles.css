@@ -20,10 +20,13 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Title */
 h1 {
     padding: 1.5rem 0;
     font-weight: 400;
 }
+
+/* Subtitle */
 
 h2 {
     padding: 1rem 0;
@@ -31,10 +34,16 @@ h2 {
     color: #6aa3b4;
 }
 
+/* Subsection */
+
 h3 {
     padding: 1.5rem 0;
     font-weight: 400;
     text-align: center;
+}
+
+h4 {
+    text-align: left;
 }
 
 .btn {
@@ -64,4 +73,3 @@ input {
     background-position:center;
     background-size:cover;
 }
-
