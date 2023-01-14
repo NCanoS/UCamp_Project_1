@@ -1,0 +1,34 @@
+footer #footer-container{
+    background-color: #223026;
+    color: #ffff;
+    padding: 20px;
+}
+
+footer .footer-sections{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+footer .footer-sections .footer-card{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-sections .footer-card .list-title{
+    font-size:x-large;
+}
+
+footer .footer-sections .footer-card .social-media{
+    display: flex;
+    align-content: center;
+    gap: 15px;
+}
+
+footer .footer-sections .footer-card .social-media .social-media-icon{
+    height: 40px;
+    width: 40px;
+}
+footer .footer-sections .footer-card .social-media .social-media-icon:hover{
+    height: 50px;
+    width: 50px;
+}
